@@ -31,7 +31,7 @@ public class UserInterface {
                         System.out.println("INFO: Anda memilih menu Create: ");
                         System.out.println("-------------------------------------------------");
                         System.out.println("INPUT DATA BARU");
-                        System.out.print("NIM:           :");
+                        System.out.print("NIM            :");
                         String nim = sc.nextLine();
                         System.out.print("NAMA MAHASISWA :");
                         String nama = sc.nextLine();
@@ -41,7 +41,7 @@ public class UserInterface {
                         int semester = sc.nextInt();
                         System.out.print("SKS            :");
                         int sks = sc.nextInt();
-                        System.out.print("IPK            : ");
+                        System.out.print("IPK            :");
                         double ipk = sc.nextDouble();
                         sc.nextLine();
                         System.out.println("-------------------------------------------------");
@@ -68,7 +68,7 @@ public class UserInterface {
                             System.out.println("Anda akan mengupdate data "+ db.getData().get(index));
                             System.out.println("-------------------------------------------------");
                             System.out.println("INPUT DATA BARU");
-                            System.out.print("NIM:           :");
+                            System.out.print("NIM            :");
                             nim = sc.nextLine();
                             System.out.print("NAMA MAHASISWA :");
                             nama = sc.nextLine();
@@ -78,7 +78,7 @@ public class UserInterface {
                             semester = sc.nextInt();
                             System.out.print("SKS            :");
                             sks = sc.nextInt();
-                            System.out.print("IPK            : ");
+                            System.out.print("IPK            :");
                             ipk = sc.nextDouble();
                             sc.nextLine();
                             System.out.println("-------------------------------------------------");
